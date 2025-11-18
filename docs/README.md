@@ -75,7 +75,69 @@ This enhances organizer efficiency, improves coordination, and ensures smooth ma
 
 ## How to Run
 
+1.  **Clone Repository**
+   ```bash
+   git clone https://github.com/cepdnaclk/e21-co227-PeraVerse-Organizer-Dashboard.git
+   cd e21-co227-PeraVerse-Organizer-Dashboard
+   ```
 
+2. **Install Dependencies**
+
+   **a) Frontend**
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+   **b)Backend**
+
+   *Api gateway*
+   ```bash
+   cd backend/backend/api-gateway
+   npm install
+   ```
+
+   *Auth service*
+   ```bash
+   cd backend/backend/services/auth-service
+   npm install
+   ```
+
+   *Alert service*
+   ```bash
+   cd backend/backend/services/alert-service
+   npm install
+   ```
+
+   *Websocket for kiosk*
+   ```bash
+   cd backend/backend/tools
+   npm install
+   ```
+
+   *Building service*
+   ```bash
+   cd backend/backend/services/building-service
+   npm install
+   ```
+
+   *Event service*
+   ```bash
+   cd backend/backend/services/event-service
+   npm install
+   ```
+
+   *Organizer management service*
+   ```bash
+   cd backend/backend/services/orgMng-service
+   npm install
+   ```
+
+   
+   
+
+   
+  
 
 ## Links
 
